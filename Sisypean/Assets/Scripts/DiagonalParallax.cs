@@ -23,8 +23,8 @@ public class DiagonalParallax : MonoBehaviour
     {
         float tempx = (cam.transform.position.x * (1 - parallaxEffect));
         float tempy = (cam.transform.position.y * (1 - parallaxEffect));
-        float distancex = (cam.transform.position.x * parallaxEffect);
-        float distancey = (cam.transform.position.y * parallaxEffect);
+        float distancex = (float) ((Math.Cos(15.0) * cam.transform.position.x) * parallaxEffect);
+        float distancey = (float) ((Math.Sin(15.0) * cam.transform.position.y) * parallaxEffect);
  
         transform.position = new Vector3(startposx + distancex, startposy + distancey, transform.position.z);
 
