@@ -54,9 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AutoScroll.cs" />
-     <Compile Include="Assets\Scripts\DiagonalParallax.cs" />
      <Compile Include="Assets\Scripts\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Parallax.cs" />
+     <Compile Include="Assets\Scripts\PathMovement.cs" />
      <Compile Include="Assets\Scripts\RotateBoulder.cs" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>C:/Users/rudow/Documents/Unity Projects/Sisyphean/Sisypean/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
