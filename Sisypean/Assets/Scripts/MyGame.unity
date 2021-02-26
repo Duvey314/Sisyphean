@@ -212,7 +212,7 @@ MonoBehaviour:
   cam: {fileID: 519420028}
   distancey: 0
   distancex: 0
-  speed: 0.01
+  speed: 1
   tempx: 0
   A: {x: 0, y: 0, z: 0}
 --- !u!1 &397352506
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   cam: {fileID: 519420028}
   distancey: 0
   distancex: 0
-  speed: 0.01
+  speed: 1
   tempx: 0
   A: {x: 0, y: 0, z: 0}
 --- !u!212 &1113657715
@@ -1597,7 +1597,7 @@ MonoBehaviour:
   cam: {fileID: 519420028}
   distancey: 0
   distancex: 0
-  speed: 0.01
+  speed: 1
   tempx: 0
   A: {x: 0, y: 0, z: 0}
 --- !u!1 &1315745479

@@ -14,6 +14,7 @@ public class PathMovement : MonoBehaviour
     public Vector3 A;
     private Vector2 temppos;
     private Vector3 campos;
+    private Vector2 move_vect;
 
 
     // Start is called before the first frame update
@@ -37,13 +38,13 @@ public class PathMovement : MonoBehaviour
         distancey = campos.y - tempy;
         distancex = campos.x - tempx;
         A = Quaternion.Euler(0,0,15) * Vector3.left;
-        
+        move_vect = A.normalized * 0.01f * speed;
         // if (speed > 1){
         //     transform.position = new Vector2((startposx + cam.transform.position.x), (startposy + cam.transform.position.y)) + new Vector2 ((transform.position.x + A.x), (transform.position.y + A.y));
         // }
 
         
-        transform.position = new Vector2 ((transform.position.x + A.x), (transform.position.y + A.y));
+        transform.position = new Vector2 ((transform.position.x + move_vect.x), (transform.position.y + move_vect.y));
 
         temppos = transform.position;
 
